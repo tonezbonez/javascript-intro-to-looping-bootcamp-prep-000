@@ -1,5 +1,4 @@
 
-
 function forLoop(anArray){
 
   for (let i = 0; i < 25; i++) {
@@ -12,10 +11,10 @@ function forLoop(anArray){
 return anArray
 };
 
-
 function whileLoop(number){
-  while (number>0){
-    console.log(number-1);
+let countdown= number
+  while (countdown>0){
+    console.log(--countdown);
   }
   return `done.`
 }
